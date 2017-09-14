@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61d12540-58d7-4b07-9f7b-3b9c082aaa7f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/filecmp1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ops7.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smtptest.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filecmp1.py" afterPath="$PROJECT_DIR$/filecmp1.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,14 +38,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="filecmp1.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="filecmp1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/filecmp1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="61" column="4" lean-forward="false" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+            <state relative-caret-position="127">
+              <caret line="55" column="49" lean-forward="true" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
               <folding>
                 <element signature="e#15#28#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="smtptest.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/smtptest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+              <folding>
+                <element signature="e#14#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tracebak.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tracebak.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,6 +103,7 @@
         <option value="$PROJECT_DIR$/ops6.py" />
         <option value="$PROJECT_DIR$/ops7.py" />
         <option value="$PROJECT_DIR$/filecmp1.py" />
+        <option value="$PROJECT_DIR$/smtptest.py" />
       </list>
     </option>
   </component>
@@ -138,25 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.filecmp1">
-    <configuration default="false" name="ops3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pythonbook" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ops3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.smtptest">
     <configuration default="false" name="ops4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -229,6 +234,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="smtptest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pythonbook" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/smtptest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -294,19 +317,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.ops3" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ops4" />
-      <item index="2" class="java.lang.String" itemvalue="Python.ops5" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ops6" />
-      <item index="4" class="java.lang.String" itemvalue="Python.filecmp1" />
+      <item index="0" class="java.lang.String" itemvalue="Python.ops4" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ops5" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ops6" />
+      <item index="3" class="java.lang.String" itemvalue="Python.filecmp1" />
+      <item index="4" class="java.lang.String" itemvalue="Python.smtptest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.filecmp1" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ops6" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ops5" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ops4" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ops3" />
+        <item index="0" class="java.lang.String" itemvalue="Python.smtptest" />
+        <item index="1" class="java.lang.String" itemvalue="Python.filecmp1" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ops6" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ops5" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ops4" />
       </list>
     </recent_temporary>
   </component>
@@ -439,13 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracebak.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/passwords.txt" />
     <entry file="file://$PROJECT_DIR$/portscan.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -538,10 +554,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/filecmp1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="61" column="4" lean-forward="false" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+        <state relative-caret-position="127">
+          <caret line="55" column="49" lean-forward="true" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
           <folding>
             <element signature="e#15#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracebak.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smtptest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="e#14#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
