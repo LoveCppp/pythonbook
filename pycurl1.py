@@ -1,0 +1,16 @@
+#coding:utf-8
+import pycurl
+c=pycurl.Curl()
+c.setopt(pycurl.CONNECT_TIME,5)
+c.setopt(pycurl.TIMEOUT,5)
+c.setopt(pycurl.NOPROGRESS,0)
+c.setopt(pycurl.MAXREDIRS,5)
+c.setopt(pycurl.FORBID_REUSE,1)
+c.setopt(pycurl.FRESH_CONNECT,1)
+c.setopt(pycurl.DNS_CACHE_TIMEOUT,60)
+c.setopt(pycurl.URL,"http://www.baidu.com")
+c.setopt(pycurl.USERAGENT,"Mizilla/5.2 (compatible; MSIE 6.0; Windows NT 5.1 SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50324)")
+c.setopt(pycurl.HEADERFUNCTION,getheader)
+c.setopt(pycurl.WRITEFUNCTION,getbody)
+c.setopt(pycurl.WRITEHEADER,fileobj)
+c.setopt(pycurl.WRITEDATA,fileobj)
